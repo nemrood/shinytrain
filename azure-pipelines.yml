@@ -14,8 +14,7 @@ variables:
   serviceConnectionToAzure: exit
   appName: appxy
 
-
-
+steps:
 - task: PublishBuildArtifacts@1
   displayName: Publish Artifact
   inputs:
