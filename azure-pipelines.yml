@@ -11,18 +11,27 @@ pool:
 
 variables:
   phpVersion: 7.2
+  serviceConnectionToAzure: exit
+  appName: appxy
 
 steps:
-- script: |
-    sudo update-alternatives --set php /usr/bin/php$(phpVersion)
-    sudo update-alternatives --set phar /usr/bin/phar$(phpVersion)
-    sudo update-alternatives --set phpdbg /usr/bin/phpdbg$(phpVersion)
-    sudo update-alternatives --set php-cgi /usr/bin/php-cgi$(phpVersion)
-    sudo update-alternatives --set phar.phar /usr/bin/phar.phar$(phpVersion)
-    php -version
-  displayName: 'Use PHP version $(phpVersion)'
+- task: ArchiveFiles@1
+  displayName: Archive files
+  inputs:
+    rootFolder: $(System.DefaultWorkingDirectory)
+    includeRootFolder: false
+    archiveType: zip
 
 - task: PublishBuildArtifacts@1
+  displayName: Publish Artifact
   inputs:
-    PathtoPublish: '$(System.DefaultWorkingDirectory)'
+    PathtoPublish: $(build.artifactstagingdirectory)
+
+- task: AzureWebApp@1
+  displayName: Azure Web App Deploy
+  inputs:
+    azureSubscription: $(serviceConnectionToAzure)
+    appType: webAppLinux
+    appName: $(appName)
+    package: $(build.artifactstagingdirectory)/**/*.zip
 
