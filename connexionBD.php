@@ -5,9 +5,9 @@
  * @author Clouder
  */
 class connexionDB {
-    private $host ='servbase.wiozneincozienc';
+    private $host ='xyserv.mysql.database.azure.com';
     private $name='homebase';
-    private $user="nimrod";
+    private $user='nimrod';
     private $pass='$espltd0.';
     private $connexion;
 
