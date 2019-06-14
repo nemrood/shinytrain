@@ -20,6 +20,7 @@ steps:
   inputs:
     rootFolder: $(System.DefaultWorkingDirectory)
     includeRootFolder: false
+    packagetype: zip
 
 
 - task: PublishBuildArtifacts@1
