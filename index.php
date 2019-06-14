@@ -24,7 +24,7 @@
 
     <!-- SITES TITLE -->
     
-    <title>CAPGEMINI CV-Tech</title>
+    <title>CAPGEMINI  ZABBI CV-Tech</title>
 </head>
 
 <body data-spy="scroll" data-target=".navbar">
