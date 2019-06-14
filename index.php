@@ -11,16 +11,16 @@
 	<link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	
-    <link href="assets/js/plugins/owl-carousel/owl.carousel.css" rel="stylesheet">
-    <link href="assets/js/plugins/owl-carousel/owl.theme.css" rel="stylesheet">
-    <link href="assets/js/plugins/owl-carousel/owl.transitions.css" rel="stylesheet">
-    <link href="assets/js/plugins/lightbox/dist/css/lightbox.min.css" rel="stylesheet">
+    <link href="../assets/js/plugins/owl-carousel/owl.carousel.css" rel="stylesheet">
+    <link href="../assets/js/plugins/owl-carousel/owl.theme.css" rel="stylesheet">
+    <link href="../assets/js/plugins/owl-carousel/owl.transitions.css" rel="stylesheet">
+    <link href="../assets/js/plugins/lightbox/dist/css/lightbox.min.css" rel="stylesheet">
 	
 	
-	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
-	<link href="assets/css/mdb.min.css" rel="stylesheet"> 
+	<link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+	<link href="../assets/css/mdb.min.css" rel="stylesheet"> 
 	
-    <link href="assets/css/main.css" rel="stylesheet">
+    <link href="../assets/css/main.css" rel="stylesheet">
 
     <!-- SITES TITLE -->
     
@@ -453,13 +453,13 @@
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="assets/js/plugins/jquery.easing.min.js"></script>
-    <script src="assets/bootstrap-4.1.1-dist/js/bootstrap.min.js"></script>
-    <script src="assets/js/plugins/typed/typed.js"></script>
-    <script src="assets/js/plugins/jquery.mixitup.min.js"></script>
-    <script src="assets/js/plugins/owl-carousel/owl.carousel.min.js"></script>
-    <script src="assets/js/plugins/lightbox/dist/js/lightbox.min.js"></script>
-    <script src="assets/js/script.js"></script>
+    <script src="../assets/js/plugins/jquery.easing.min.js"></script>
+    <script src="../assets/bootstrap-4.1.1-dist/js/bootstrap.min.js"></script>
+    <script src="../assets/js/plugins/typed/typed.js"></script>
+    <script src="../assets/js/plugins/jquery.mixitup.min.js"></script>
+    <script src="../assets/js/plugins/owl-carousel/owl.carousel.min.js"></script>
+    <script src="../assets/js/plugins/lightbox/dist/js/lightbox.min.js"></script>
+    <script src="../assets/js/script.js"></script>
 </body>
 
 </html>
