@@ -24,7 +24,7 @@
 
     <!-- SITES TITLE -->
     
-    <title>CAPGEMINI  ZABBI CV-Tech</title>
+    <title>MITRE GOD</title>
 </head>
 
 <body data-spy="scroll" data-target=".navbar">
