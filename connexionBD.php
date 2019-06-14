@@ -5,10 +5,10 @@
  * @author Clouder
  */
 class connexionDB {
-    private $host ='localhost';
-    private $name='lab';
-    private $user="root";
-    private $pass='';
+    private $host ='servbase.wiozneincozienc';
+    private $name='homebase';
+    private $user="nimrod";
+    private $pass='$espltd0.';
     private $connexion;
 
     function __construct($host=null,$name=null,$user=null,$pass=null){
