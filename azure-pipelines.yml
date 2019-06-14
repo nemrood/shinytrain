@@ -14,13 +14,7 @@ variables:
   serviceConnectionToAzure: exit
   appName: appxy
 
-steps:
-- task: ArchiveFiles@1
-  displayName: Archive files
-  inputs:
-    rootFolder: $(System.DefaultWorkingDirectory)
-    includeRootFolder: false
-    archiveType: zip
+
 
 - task: PublishBuildArtifacts@1
   displayName: Publish Artifact
