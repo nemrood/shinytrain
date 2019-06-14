@@ -31,10 +31,7 @@
 
     <!-- PRELOADER
 	============================================= -->
-   
-    <div class="page-preloader">
-        <div class="loader">Loading...</div>
-    </div>
+
 
 
     <!-- HEADER
