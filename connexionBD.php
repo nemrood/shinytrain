@@ -5,7 +5,7 @@
  * @author Clouder
  */
 class connexionDB {
-    private $host ='xyserv.mysql.database.azure.com';
+    private $host='servbase.database.windows.net';
     private $name='homebase';
     private $user='nimrod';
     private $pass='$espltd0.';
