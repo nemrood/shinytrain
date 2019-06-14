@@ -15,6 +15,13 @@ variables:
   appName: appxy
 
 steps:
+- task: ArchiveFiles@1
+  displayName: Archive files
+  inputs:
+    rootFolder: $(System.DefaultWorkingDirectory)
+    includeRootFolder: false
+
+
 - task: PublishBuildArtifacts@1
   displayName: Publish Artifact
   inputs:
@@ -27,4 +34,3 @@ steps:
     appType: webAppLinux
     appName: $(appName)
     package: $(build.artifactstagingdirectory)/**/*.zip
-
