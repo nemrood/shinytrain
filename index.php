@@ -24,7 +24,7 @@
 
     <!-- SITES TITLE -->
     
-    <title>SINON</title>
+    <title>HELLO</title>
 </head>
 
 <body data-spy="scroll" data-target=".navbar">
