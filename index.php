@@ -24,7 +24,7 @@
 
     <!-- SITES TITLE -->
     
-    <title>MITRE GOD</title>
+    <title>SINON</title>
 </head>
 
 <body data-spy="scroll" data-target=".navbar">
